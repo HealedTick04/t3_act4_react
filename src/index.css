@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Rajdhani', sans-serif;
+  color: #e4fbff;
+  background: #070912;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --neon-cyan: #00f5ff;
+  --neon-pink: #ff2bd6;
+  --neon-purple: #9b5cff;
+  --bg-panel: rgba(14, 20, 38, 0.92);
+  --border-color: rgba(0, 245, 255, 0.3);
+  --text-muted: #8196b5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #070912;
+  background-image:
+    linear-gradient(rgba(0, 245, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 255, 0.035) 1px, transparent 1px),
+    radial-gradient(ellipse at 50% 0%, #191438 0%, #070912 65%);
+  background-size: 32px 32px, 32px 32px, auto;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--neon-pink);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: var(--neon-pink);
+  color: #070912;
+}
