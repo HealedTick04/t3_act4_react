@@ -54,11 +54,11 @@ En TaskFlow lo utilicé para guardar las tareas con useState(initialTasks) y par
 
 ### d) Enlace del repositorio de GitHub
 
-Pegar aquí la URL de tu repositorio.
+[URL del repositorio](https://github.com/HealedTick04/t3_act4_react)
 
 ### e) Enlace del proyecto en GitHub Pages
 
-Pegar aquí la URL de la aplicación publicada.
+[Pages.](https://healedtick04.github.io/t3_act4_react/)
 
 ## Autor
 
